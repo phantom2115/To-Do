@@ -1,9 +1,21 @@
-# React + Vite
+# To-Do 
+[To-Do](https://to-do-eta-taupe.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 개발 기간
+2024.05.15 ~ 2024.05.16
 
-Currently, two official plugins are available:
+## 기술 스텍
+<div>
+  <img src="https://img.shields.io/badge/react.js-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# To-Do
+## 기능
+
+* 제목 내용 입력 후 추가 시 Working에 뜨기
+* 삭제 버튼 클릭 시 삭제
+* 완료 버튼 클릭 시 Done으로 내려감
+* 제목과 내용이 비어 있을 시 빈칸 알림 뜸
+
+
+
