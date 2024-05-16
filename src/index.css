@@ -1,0 +1,96 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  max-height: 800px;
+}
+
+header {
+  border: solid 1px gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+header > span {
+  margin: 0px 30px;
+}
+
+.add {
+  background-color: rgb(205, 205, 205);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.add > div {
+  margin: 0px 30px;
+}
+
+.add > button {
+  margin: 0px 30px;
+}
+.title {
+  margin: 0px 15px;
+  height: 40px;
+  width: 200px;
+  border: solid 0px;
+  border-radius: 10px;
+}
+
+.content {
+  margin: 0px 15px;
+  width: 200px;
+  height: 40px;
+  border: solid 0px;
+  border-radius: 10px;
+}
+.addBtn {
+  color: white;
+  background-color: rgb(14, 59, 14);
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.todo {
+  border: solid 3px rgb(14, 59, 14);
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
+.todo > div {
+  margin: 30px 30px;
+}
+
+.todo > span {
+  display: flex;
+  justify-content: center;
+}
+.working {
+  border: solid 3px red;
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 0px 20px;
+  width: 100px;
+  height: 40px;
+}
+
+.done {
+  border: solid 3px green;
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 0px 20px;
+  width: 100px;
+  height: 40px;
+}
+
+.todos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px 15px;
+}
